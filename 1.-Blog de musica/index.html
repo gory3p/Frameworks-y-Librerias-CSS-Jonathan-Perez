@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Foundation for Sites</title>
+    <title>Blog de Música - Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -11,13 +11,119 @@
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
 </head>
-
 <header>
-   
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-11 text-center">
+        <img class="imagenlogo" src="img/logo.fw.png"/>
+      </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-1 button-box redessociales">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default rojo">
+              <a href="#" class="icon-button linkedin"><i class="icon-linkedin"></i><span></span></a>
+            </button>
+            <button type="button" class="btn btn-default verde">
+              <a href="#" class="icon-button pinterest"><i class="icon-pinterest"></i><span></span></a>
+            </button>
+            <button type="button" class="btn btn-default celeste">
+              <a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+            </button>
+            <button type="button" class="btn btn-default azul">
+              <a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+            </button>
+            <button type="button" class="btn btn-default rojo">
+              <a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+            </button>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Artistas</a></li>
+        <li><a href="#">Grupos</a></li>
+        <li><a href="#">Top 10</a></li>
+        <li><a href="#">Letras</a></li>
+        <li><a href="#">Acordes</a></li>
+      </ul>
+    </nav>
 </header>
 
 <body>
-   
+    <div class="container-fluid">
+      <div class="col-lg-8 ">
+        <div class="row ">
+          <div class="col-lg-8 aling-texto">
+            <h1>Underoath</h1>
+            <p>
+              Underoath (estilizado como underØATH) es una banda estadounidense y cristiana de post-hardcore, formada en el año 1997 en Ocala, Florida, pero radicada poco tiempo después en Tampa, Florida. Underoath fue formada por Luke Morton y Dallas Taylor,2 3 4 5 6 La banda actualmente está formada por Spencer Chamberlain (voces), Timothy McTague (guitarra principal), James Smith (guitarra rítmica), Grant Brandell (bajo), Christopher Dudley (teclados) y Aaron Gillespie voz, (batería). Takehold Records contrató a Underoath para lanzar sus dos primeros álbumes. En el año 2001, firman con Solid State, casa con el que lanzan sus dos trabajos discográficos siguientes. Para el 2006 firman con Tooth & Nail, sin dejar a Solid State; con estas dos compañías lanzan los últimos tres álbumes, además, Roadrunner distribuye los discos de la banda desde el 2010,7 junto a EMI Christian Music Group mundialmente.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="img/underoath.jpg" alt="underoath" class="estilopropio">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1 col-xs-3">
+            <img src="img/usuario.jpg" alt="user" class="estilo">
+          </div>
+          <div class="col-lg-11 col-xs-8">
+            <textarea class="form-control" rows="2" placeholder="Comentario..."></textarea>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-4">
+            <img src="img/rafael.png" alt="rafaelCorea" class="estilopropio">
+          </div>
+          <div class="col-lg-8 aling-texto">
+            <h1>Rafael Vicente Correa Delgado</h1>
+            <p>
+             Rafael Vicente Correa Delgado (Guayaquil, 6 de abril de 1963)1 es un político y economista ecuatoriano que ejerce como Presidente del Ecuador desde enero de 2007. Su mandato comenzó tras su victoria en las elecciones presidenciales de 2006 al frente de Alianza PAÍS. En 2005, durante la presidencia de Alfredo Palacio, ocupó el puesto de Ministro de Economía durante tres meses.
+
+             En septiembre de 2008, tras la adopción de una nueva constitución, se organizaron elecciones generales, celebradas el 26 de abril del año siguiente, en las que resultó vencedor con el 52 % de los votos en la primera vuelta. Correa fue, así, reelegido para un segundo mandato de cuatro años y, después, nuevamente para un tercer mandato, que debe concluir en 2017.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1 col-xs-3">
+            <img src="img/usuario.jpg" alt="user" class="estilo">
+          </div>
+          <div class="col-lg-11 col-xs-8">
+            <textarea class="form-control" rows="2" placeholder="Comentario..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 hidden-xs">
+        <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                <input type="text" class="form-control" rows="3" placeholder="Buscar por... ">
+            </div>
+        <table class="table table-hover">
+          <thead><h4>Categorias</h4></thead>
+          <tbody>
+            <tr><td><a href="#">Baladas en Español</a></td></tr>
+            <tr><td><a href="#">Baladas en Ingles</a></td></tr>
+            <tr><td><a href="#">Cumbia</a></td></tr>
+            <tr><td><a href="#">Dance</a></td></tr>
+            <tr><td><a href="#">Electronica</a></td></tr>
+            <tr><td><a href="#">Reggueton</a></td></tr>
+            <tr><td><a href="#">Folclore</a></td></tr>
+            <tr><td><a href="#">Flamenco</a></td></tr>
+            <tr><td><a href="#">Latino</a></td></tr>
+            <tr><td><a href="#">PoP</a></td></tr>
+            <tr><td><a href="#">Rock And Roll</a></td></tr>
+            <tr><td><a href="#">Rap</a></td></tr>
+            <tr><td><a href="#">Heavy Metal</a></td></tr>
+            <tr><td><a href="#">Hard Rock</a></td></tr>
+            <tr><td><a href="#">Blues</a></td></tr>
+            <tr><td><a href="#">Jazz</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
 </body>
 
 </html>

@@ -2,7 +2,7 @@ html{
   width: 90%;
   margin:0 auto;
   height: 100%;
-  background-color: red;
+  background-color: #610B38;
 }
 header{
   margin-bottom: 10px;
@@ -29,7 +29,7 @@ header{
 }
 
 .nav{
-  background-color: orange;
+  background-color: #F79F81;
   border-radius: 10px;
 }
 
@@ -38,24 +38,32 @@ img[class^='estiloimg']{
 }
 .estilopropio{
   width: 100%;
-  margin-top: 25%;
+  margin-top: 10%;
 }
-
+.estilo{
+	width: 50px;
+}
 table{
   cursor: pointer;
+}
+
+a{
+	color: #610B38;
 }
 
 p {
   text-align: justify;
 }
 /*******************************************************************************/
-@media all and (max-width: 900px) {
+@media (max-width: 750px) {
 .redessociales{
   width: 100%;
   text-align: center;
   margin-top: auto;
 }
-.col-xs-3{
-  margin-top: 0%;
+.imagenlogo{
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 }
