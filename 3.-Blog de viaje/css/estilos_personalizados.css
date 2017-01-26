@@ -1,0 +1,21 @@
+.fondo {
+  background:url(../img/fondo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.imagenpost {
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+}
+
+.autor {
+  text-align: center;
+
+}
+h4{
+	color: green;
+}

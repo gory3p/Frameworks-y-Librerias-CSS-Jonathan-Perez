@@ -7,9 +7,133 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Importar la hojas de estilos de materialize css-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Mi primer página con Materialize CSS</title>
+    <link rel="stylesheet" href="css/estilos_personalizados.css">
+    <title>Sombras, citas y texto adaptativo</title>
   </head>
-  <body>
+  <body class="fondo">
+
+
+    <div class="row">
+      <div class="col s12 m6 l2">
+        <a class="brand-logo left" href="#"><img src="img/logo.jpg" class="circle responsive-img"></a>
+      </div>
+      <div class="col s12 m6 l3 white-text center-align">
+        <br>
+        <h4>Ecuador</h4>
+      </div>
+      <div class="col m6 l7">
+        <ul class="right hide-on-small-and-down">
+          <a class="waves-effect waves-light btn-large"><i class="material-icons left">home</i>Inicio</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons left">location_on</i>Lugares</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons left">star</i>Mejores Viajes</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons left">done</i>Recomendaciones</a>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s1 left hide-on-med-and-down">
+        <a class="btn-floating btn-large waves-effect waves-light" href="#"><i class="material-icon"><img src="img/facebook.png"></i></a>
+        <br><br>
+        <a class="btn-floating btn-large waves-effect waves-light" href="#"><i class="material-icon"><img src="img/google+.png"></i></a>
+        <br><br>
+        <a class="btn-floating btn-large waves-effect waves-light" href="#"><i class="material-icon"><img src="img/twitter.png"></i></a>
+        <br><br>
+        <a class="btn-floating btn-large waves-effect waves-light" href="#"><i class="material-icon"><img src="img/you_tube.png"></i></a>
+        <br><br>
+        <a class="btn-floating btn-large waves-effect waves-light" href="#"><i class="material-icon"><img src="img/skype.png"></i></a>
+      </div>
+      <div class="row">
+          <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="z-depth-5" src="img/cuenca.jpg" alt="cuenca"/>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3">
+          <div class="card">
+            <div class="card-image">
+              <img class="z-depth-5" src="img/varios.jpg" alt="varios"/>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="z-depth-5" src="img/cotopaxi.jpg" alt="cotopaxi"/>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4 pull-l7">
+          <div class="card">
+            <div class="card-image">
+              <img class="z-depth-5" src="img/galapagos.jpg" alt="galapagos"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m7 l7 white offset-l1">
+        <p><img class="imagenpost" src="img/cuenca.jpg" alt="Cuenca" align="left"><br>
+          <h5>Cuenca Ecuador</h5>
+          <div class="chip"><i class="material-icons right">date_range</i>Enero, 2017</div>
+          <div class="chip"><i class="material-icons right">location_on</i>Los Cuenca, oficialmente Santa Ana de los Cuatro Ríos de Cuenca,</div><br>
+          es una ciudad del centro austral de la República del Ecuador y es la capital de la provincia del Azuay. Está situada en la parte meridional de la Cordillera Andina Ecuatoriana. Su Centro Histórico fue declarado Patrimonio de la Humanidad por la UNESCO en el año 1999.
+
+          Es llamada la Atenas del Ecuador por su arquitectura, su diversidad cultural, su aporte a las artes, ciencias y letras ecuatorianas y por ser el lugar de nacimiento de muchos personajes ilustres de la sociedad ecuatoriana.3 Cuenta con un paisaje urbanístico que mantiene armonía con el entorno geográfico, destacando en medio su centro histórico, uno de los mejores conservados y más grandes del país. En este lugar se guardan las claves del pasado, allí se mezcla la gente, flores, artesanías, tejidos, bordados, cerámica, platería, entre otros atractivos.</p>
+
+        <p>La ciudad lleva el nombre de "Santa Ana de los Ríos de Cuenca" en honor a la ciudad de Cuenca en España, lugar de nacimiento del virrey español del Perú Don Andrés Hurtado de Mendoza, quién fue el que mandó a fundar la ciudad al español Don Gil Ramírez Dávalos y al hecho de que, este lugar; en sus accidentes geográficos se parecen mucho a la ciudad española y además cruzan cuatro ríos, que son: el Tomebamba, el Tarqui, el Yanuncay y el Machángara. El resto del nombre proviene de la tradición española de dedicar a las nuevas ciudades a un santo o santa de la iglesia católica, en este caso a Santa Ana.</p>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card autor">
+          <br>
+          <img src="img/yo.jpg" class="circle responsive-img avatar">
+          <br>
+          <h5>Perfil del Autor</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="row">
+      <form class="col s12 m7 l7 white offset-l1">
+        <div class="row">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12 m12 l6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Nombre</label>
+                </div>
+                <div class="input-field col s12 m12 l6">
+                  <i class="material-icons prefix">mail</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Correo Electronico</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m12 l6">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Comentarios</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+
+
+
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
